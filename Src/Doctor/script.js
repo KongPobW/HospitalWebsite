@@ -12,7 +12,7 @@ function searchDoctor() {
             console.log(count);
             checkIfAllNone(count, input);
         } else {
-            course[i].style.display = "inline-table";
+            course[i].style.display = "inline-block";
             noCourse[0].style.display = "none";
             count = 0;
             console.log("printed line");
@@ -23,7 +23,7 @@ function searchDoctor() {
 function checkIfAllNone(count, input) {
     let noCourse = document.getElementsByClassName("no-text");
     if (count >= 11) {
-        noCourse[0].style.display = "inline-table";
+        noCourse[0].style.display = "inline-block";
     } else {
         noCourse[0].style.display = "none";
         console.log(input);
