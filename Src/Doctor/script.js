@@ -6,7 +6,7 @@ function searchDoctor() {
     let count = 0;
     for (i = 0; i <= course.length; i++) {
 
-        if (!course[i].innerHTML.toLowerCase().includes(input)) {
+        if (!course[i].textContent.toLowerCase().includes(input)) {
             course[i].style.display = "none";
             count += 1;
             console.log(count);
