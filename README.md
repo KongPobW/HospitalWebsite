@@ -1,3 +1,3 @@
 # HospitalWebsite
 
-Build in VsCode
+Written in VsCode
